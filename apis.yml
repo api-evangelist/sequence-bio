@@ -1,7 +1,27 @@
 aid: sequence-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sequence-bio.png
 name: Sequence Bio
-description: Sequence Bio is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sequence Bio is a life sciences and population genomics company based in St. John's,
+  Newfoundland and Labrador, Canada, focused on discovering the genetic causes of disease
+  to power the development of new medicines. The company leverages the founder-effect
+  genetics of the Newfoundland and Labrador population, running a large-scale Study of the
+  Genetic Causes of Inherited Disease to identify novel drug targets and predictors of
+  treatment response for pharmaceutical partners. Surfaced as a portfolio company of DCVC
+  and profiled in the API Evangelist network; the company publishes a corporate and
+  research website but does not currently expose a public developer program, API, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/sequence-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Genomics
+- Life Sciences
+- Biotechnology
+- Population Genetics
+- Drug Discovery
+- Healthcare
+- Research
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sequence-bio-domain-security.yml
+- type: Website
+  url: https://www.sequencebio.com/
+- type: About
+  url: https://www.sequencebio.com/about-us
+- type: Research
+  url: https://www.sequencebio.com/research
+- type: Partnerships
+  url: https://www.sequencebio.com/partnerships
+- type: Blog
+  url: https://www.sequencebio.com/insights
+- type: Support
+  url: https://www.sequencebio.com/contact
+- type: PrivacyPolicy
+  url: https://www.sequencebio.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
